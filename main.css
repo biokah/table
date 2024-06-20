@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+  
+}
+
+a {
+    color: black;
+}
+
+.table-wrapper {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-spacing: 3px;
+    table-layout: auto;
+    border-collapse: collapse;
+    height: 100%;
+    
+}
+
+th, td, tr, tbody {
+    border: 1px solid #DFDFDF;
+    height: 100%;
+}
+
+th {
+    background-color: #F8F9FA;
+    padding: 6px;
+}
+
+td {
+    padding: 4px;
+    text-align: center;
+}
+td article {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.table-telephone, .table-email, .table-location {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.table-telephone {
+    color: #18A2B8;
+}
+
+.table-telephone {
+    margin-bottom: 6px;
+}
+
+
+.table-flag span{
+    background-color: #18A2B8;
+    color: white;
+    padding: 5px;
+    font-size: .85rem;
+    border-radius: 5px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.positive-revenue {
+    background: #E8FFE9;
+}
+
+.negative-revenue {
+    background: #FFF0EA;
+}
