@@ -49,7 +49,7 @@ td article {
 
 .table-telephone, .table-email, .table-location {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 5px;
 }
 
@@ -79,4 +79,8 @@ td article {
 
 .negative-revenue {
     background: #FFF0EA;
+}
+
+.left-align {
+    text-align: left;
 }
